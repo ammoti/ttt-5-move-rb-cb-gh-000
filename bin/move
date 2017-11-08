@@ -9,4 +9,4 @@ print "Where would you like to go?"
 getIndex = gets.strip
 index = input_to_index(getIndex)
 move(board,index)
-display_board()
+display_board(board)
